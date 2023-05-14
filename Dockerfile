@@ -10,4 +10,4 @@ WORKDIR /FileStreamBot
 
 COPY . .
 
-CMD ["python3", "bot.py"]
+CMD ["python3", "-m WebStreamer"]
